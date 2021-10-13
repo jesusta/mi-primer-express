@@ -9,5 +9,5 @@ app.listen(3000,()=> {
     
 });
 app.get('/',(req,res)=>{
-    res.send('<h1>hello como estas</h1>')
+    res.send('<h1>mejor ahora </h1>')
 })
