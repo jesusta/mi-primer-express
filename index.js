@@ -11,3 +11,6 @@ app.listen(3000,()=> {
 app.get('/',(req,res)=>{
     res.send('<h1>mejor ahora </h1>')
 })
+app.get('/login',(req,res)=>{
+    res.send('<h1>inicia sesion </h1>')
+})
